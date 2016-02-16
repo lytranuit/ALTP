@@ -1,0 +1,11 @@
+{
+    "name": "appALTP"
+  , "description": "Game Ai la trieu phu online"
+  , "version": "0.0.1"
+  , "dependencies": {
+      "express": "",
+      "socket.io": "",
+      "mysql": "~2.0",
+	  "ws":"0.4.31"
+  }
+}

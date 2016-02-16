@@ -1,0 +1,189 @@
+body 
+{
+
+  	padding: 0;
+    border: 0;
+    outline: 0;
+	height:100%;
+	width:100%;
+	margin:5px auto;
+	background:url(../images/65.jpeg) no-repeat;
+	-webkit-background-size:100%;
+    -moz-background-size:100%;
+    -o-background-size:100%;
+    background-size:100%;
+}
+#all 
+{
+	position:relative;
+    width: 99%;
+    height: 100%;   
+    text-align: center;
+}
+#left 
+{
+	position:absolute;
+	top:0px;1
+	left:0px;
+     border: solid 1px aqua; 
+     float: left ;
+     margin-bottom: 50px; 
+     border-radius: 20px;      
+     padding: 10px; 
+     color:#FFF;
+}
+#left a{
+	color:#999;
+}
+#right 
+{  
+	position:absolute;
+	right:0px;
+	top:0px;
+     border: solid 1px aqua;   
+     float: right;
+     margin-bottom: 50px; 
+     border-radius: 20px;      
+     padding: 20px;  
+	 text-align:left;   
+}
+
+#content 
+{
+	margin:10px auto;
+    border: solid 1px red;
+    clear: both; 
+    height: 150px; 
+    padding: 20px; 
+    width: 50%; 
+    border-radius: 15px;                             
+                           
+}
+
+#cauhoi 
+{
+	background:black;
+    border: solid 1px green;
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color:white;               
+}
+
+#chinh
+{
+    clear: both;
+    
+}
+
+#ds 
+{
+  
+    color: purple;
+}
+
+#ds div 
+{
+   width: 100%; 
+   margin: 2px;
+
+   
+}
+
+#ds strong
+{
+    float: right; 
+    margin-left:5px;
+}
+
+.icon 
+{
+	height:180px;
+	width:180px;
+}
+
+.icon:hover 
+{
+    cursor: pointer;
+    
+}
+
+#time 
+{
+    border: solid 1px red;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 60px;
+    background-color: #8000FF;
+	font-size:30px;
+    color:red;
+}
+#time p{
+	position:relative;
+}
+
+.dapan {
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+            border-radius: 10px;
+			background:black;
+			cursor:pointer;
+			color:white;
+			min-height:30px;
+        }
+.dapan[disabled]{
+	cursor:default;
+}
+.select{
+	background:green;
+}
+.select-user{
+	background:#F03;
+}
+.help{
+	cursor:pointer;
+}
+.help[disabled]{
+	cursor:default;
+}
+.success{
+	background:#0F0;
+}
+.sorce{
+	background:#0F0;
+}
+#goidt{
+	background:url(../images/call.png) center no-repeat;
+	width:93px;
+	height:93px;
+	border:none;
+}
+#trogiup50{
+	background:url(../images/5050.png) center no-repeat;
+	width:93px;
+	height:93px;
+	border:none;
+}
+#khangia{
+	background:url(../images/kg.png) center no-repeat;
+	width:93px;
+	height:93px;
+	border:none;
+}
+#giaithoat{
+	background:url(../images/gen_stop.png) center no-repeat;
+	width:75px;
+	height:75px;
+	background-size:100%;
+	border:none;
+}
+.thongbao{
+	overflow:scroll;
+	height:180px;
+	width: 50%; 
+	background:#FFF;
+	margin:10px auto;
+}
